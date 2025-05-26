@@ -34,20 +34,20 @@ Get started with Insight Ray in just a few steps:
    image = processor.load_image('path/to/image.jpg')
    results = processor.analyze(image)
 
-Features
---------
+Navigation
+----------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Documentation:
 
-   installation
-   quickstart
-   api/index
-   tutorials/index
-   examples/index
-   contributing
-   changelog
+   welcome
+   what-is-insight-ray
+   supported-platforms
+   get-started
+   basics
+   deep-dive
+   faq
 
 Key Capabilities
 ----------------
