@@ -18,21 +18,7 @@ Insight Ray is a comprehensive computer vision toolkit that offers:
 * Flexible API for developers
 * High-performance processing capabilities
 
-Quick Start
------------
 
-Get started with Insight Ray in just a few steps:
-
-.. code-block:: python
-
-   import insight_ray
-   
-   # Initialize the vision processor
-   processor = insight_ray.VisionProcessor()
-   
-   # Load and process an image
-   image = processor.load_image('path/to/image.jpg')
-   results = processor.analyze(image)
 
 Navigation
 ----------
@@ -76,14 +62,4 @@ Community & Support
 * **Discussions**: Join the community discussions
 * **Documentation**: You're reading it!
 
-License
--------
 
-Insight Ray is released under the MIT License. See the `LICENSE` file for more details.
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
