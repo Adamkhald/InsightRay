@@ -34,7 +34,6 @@ What You'll Learn
 **Bone Fracture Detection**
    * Specialized fracture identification algorithms
    * Multi-region skeletal analysis
-   * Severity assessment and reporting
 
 **Natural Language Processing**
    * Interactive chatbot for diagnostic queries
@@ -99,4 +98,4 @@ Need support? Contact our development team or visit our community forums for add
 
 ----
 
-*ChestVision AI - Advancing medical diagnostics through artificial intelligence*
+*Insight Ray - Advancing medical diagnostics through artificial intelligence*
