@@ -3,9 +3,7 @@ Insight Ray Documentation
 
 Welcome to **Insight Ray**, a powerful computer vision project designed to provide advanced image analysis and processing capabilities.
 
-.. image:: _static/banner.png
-   :alt: Insight Ray Banner
-   :align: center
+
 
 Overview
 --------
@@ -50,16 +48,6 @@ Real-time Processing
 ~~~~~~~~~~~~~~~~~~~~
 Optimized for real-time applications with minimal latency.
 
-Machine Learning Integration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Seamless integration with popular ML frameworks like TensorFlow and PyTorch.
 
-Community & Support
--------------------
-
-* **GitHub Repository**: `Insight Ray on GitHub <https://github.com/your-username/insight-ray>`_
-* **Issue Tracker**: Report bugs and request features
-* **Discussions**: Join the community discussions
-* **Documentation**: You're reading it!
 
 
