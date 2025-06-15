@@ -103,40 +103,37 @@ Insight Ray integrates three specialized artificial intelligence models, each op
 
 2.  Bone Fracture Detection Model
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    **Purpose:** Specialized identification of skeletal injuries and fractures.
+    **Purpose:** Specialized identification of skeletal injuries and fractures, specifically for Hand, Elbow, and Shoulder X-rays.
 
     **Training Approach:**
-    * Dedicated fracture dataset with expert annotations.
-    * Focus on chest-related bone structures.
-    * Multi-resolution analysis for different fracture types.
+    * Utilizes the MURA dataset, comprising Elbow, Hand, and Shoulder X-ray images, with expert annotations.
+    * Implements a **two-step classification algorithm**:
+        1.  **Body Part Classification:** An initial model classifies the input X-ray image to identify if it contains an Elbow, Hand, or Shoulder.
+        2.  **Fracture Detection (Per Body Part):** Once the body part is identified, a specialized model (or a branch of a larger model) assesses the image for the presence of a fracture within that specific anatomical region.
+    * Focuses on precise detection of "Fractured" or "Normal" status for the identified body part.
 
     **Detection Capabilities:**
-    * **Rib Fractures:** Single and multiple rib breaks.
-    * **Clavicle Fractures:** Collarbone injuries.
-    * **Sternum Fractures:** Breastbone damage.
-    * **Spine Abnormalities:** Vertebral compression or fractures.
+    * **Hand Fractures:** Detection of breaks and abnormalities in hand bones.
+    * **Elbow Fractures:** Identification of injuries in the elbow joint and surrounding bones.
+    * **Shoulder Fractures:** Detection of fractures in the shoulder region.
 
-    **Fracture Classification:**
-    * **Acute Fractures:** Recent injuries with sharp, clear breaks.
-    * **Healing Fractures:** Callus formation and bone repair.
-    * **Chronic Changes:** Old fractures with remodeling.
-    * **Stress Fractures:** Hairline cracks from repetitive strain.
+    **Fracture Classification (Result Categories):**
+    * **Fractured:** Indicates the presence of a detected fracture.
+    * **Normal:** Indicates no fracture detected in the analyzed region.
 
 3.  Natural Language Processing Chatbot
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    **Purpose:** Intelligent assistant for result interpretation and medical queries.
+    **Purpose:** An intelligent assistant designed to provide result interpretation and answer medical queries. This Flask-based application serves as an interactive medical assistant.
 
     **Core Functions:**
-    * **Medical Terminology Explanation:** Simplify complex medical terms.
-    * **Result Interpretation:** Context-aware analysis of findings.
-    * **Differential Diagnosis:** Suggest possible conditions.
-    * **Patient Communication:** Help explain findings to patients.
+    * **Medical Terminology Explanation:** Simplifies and explains complex medical terms from diagnostic reports.
+    * **Result Interpretation:** Provides context-aware analysis of medical findings.
+    * **Differential Diagnosis:** Suggests possible medical conditions based on symptoms.
+    * **Patient Communication:** Helps explain medical findings to patients in an understandable manner.
 
     **Knowledge Base:**
-    * Medical literature and guidelines.
-    * Radiology reporting standards.
-    * Clinical correlations and follow-up recommendations.
-    * Patient education resources.
+    * Built upon a diverse dataset including medical literature, guidelines, radiology reporting standards, clinical correlations, follow-up recommendations, and patient education resources.
+    * Leverages a trained model (e.g., KNN model from `knn.pkl`) and various CSV datasets (`tfidfsymptoms.csv`, `Training.csv`, `symptom_Description.csv`, `symptom_severity.csv`, `symptom_precaution.csv`) for its medical knowledge and symptom processing.
 
 Image Processing Pipeline
 -------------------------
