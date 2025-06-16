@@ -12,12 +12,12 @@ Exigences Système
 * 4 Go de RAM minimum, 8 Go recommandés
 * 500 Mo d'espace disque disponible
 
-**macOS**
+**macOS** (work in progress)
 * macOS 10.15 (Catalina) ou version ultérieure
 * 4 Go de RAM minimum, 8 Go recommandés
 * 500 Mo d'espace disque disponible
 
-**Linux**
+**Linux** (work in progress)
 * Ubuntu 18.04+ ou équivalent
 * 4 Go de RAM minimum, 8 Go recommandés
 * 500 Mo d'espace disque disponible
