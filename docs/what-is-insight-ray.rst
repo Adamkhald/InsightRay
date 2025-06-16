@@ -1,23 +1,24 @@
-What is Insight Ray?
+====================
+Qu'est-ce qu'Insight Ray ?
 ====================
 
-Insight Ray is a desktop application designed to assist doctors by quickly analyzing medical images using artificial intelligence.
+Insight Ray est une application de bureau conçue pour aider les médecins en analysant rapidement des images médicales à l'aide de l'intelligence artificielle.
 
-Core Purpose
-------------
+Objectif principal
+-----------------
 
-The application allows healthcare professionals to:
+L'application permet aux professionnels de la santé de :
 
-* Import medical images from various sources
-* Use AI models to classify medical conditions
-* Detect anomalies and abnormalities
-* Improve diagnostic accuracy and speed
-* Generate detailed analysis reports
+* Importer des images médicales de diverses sources
+* Utiliser des modèles d'IA pour classer les conditions médicales
+* Détecter les anomalies et les irrégularités
+* Améliorer la précision et la rapidité du diagnostic
+* Générer des rapports d'analyse détaillés
 
-Key Benefits
-------------
+Avantages clés
+--------------
 
-* **Speed**: Rapid image analysis in seconds
-* **Accuracy**: AI-enhanced diagnostic precision  
-* **Efficiency**: Streamlined workflow for medical professionals
-* **Reliability**: Consistent results across different image types 
+* **Rapidité** : Analyse d'images rapide en quelques secondes
+* **Précision** : Précision diagnostique améliorée par l'IA
+* **Efficacité** : Flux de travail rationalisé pour les professionnels de la santé
+* **Fiabilité** : Résultats cohérents pour différents types d'images
