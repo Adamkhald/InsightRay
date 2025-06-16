@@ -1,37 +1,40 @@
-FAQ
-===
+.. _faq:
 
-Frequently Asked Questions
+=======
+FAQ
+=======
+
+Foire Aux Questions
 --------------------------
 
-**Q: What types of medical images can Insight Ray analyze?**
+**Q: Quels types d'images médicales Insight Ray peut-il analyser ?**
 
-A: Insight Ray supports various medical imaging formats including X-rays, CT scans, MRIs, and ultrasound images in DICOM, JPEG, PNG, and TIFF formats.
+R: Insight Ray prend en charge divers formats d'imagerie médicale, y compris les radiographies, les tomodensitogrammes (TDM), les IRM et les images échographiques aux formats DICOM, JPEG, PNG et TIFF.
 
-**Q: How accurate is the AI analysis?**
+**Q: Quelle est la précision de l'analyse par IA ?**
 
-A: Our AI models achieve over 95% accuracy on standard medical imaging datasets, but results should always be reviewed by qualified medical professionals.
+R: Nos modèles d'IA atteignent plus de 95 % de précision sur les ensembles de données d'imagerie médicale standard, mais les résultats doivent toujours être examinés par des professionnels de la santé qualifiés.
 
-**Q: Can I use Insight Ray for clinical diagnosis?**
+**Q: Puis-je utiliser Insight Ray pour le diagnostic clinique ?**
 
-A: Insight Ray is designed as a diagnostic aid tool. All results should be interpreted by qualified healthcare professionals and should not replace clinical judgment.
+R: Insight Ray est conçu comme un outil d'aide au diagnostic. Tous les résultats doivent être interprétés par des professionnels de la santé qualifiés et ne doivent pas remplacer le jugement clinique.
 
-**Q: Is my patient data secure?**
+**Q: Mes données patient sont-elles sécurisées ?**
 
-A: Yes, Insight Ray processes images locally on your device. No patient data is transmitted to external servers unless explicitly configured.
+R: Oui, Insight Ray traite les images localement sur votre appareil. Aucune donnée patient n'est transmise à des serveurs externes, sauf si cela est explicitement configuré.
 
-**Q: What should I do if the analysis seems incorrect?**
+**Q: Que dois-je faire si l'analyse semble incorrecte ?**
 
-A: Always verify results with clinical expertise. You can adjust sensitivity settings or try different analysis modes for better results.
+R: Vérifiez toujours les résultats avec votre expertise clinique. Vous pouvez ajuster les paramètres de sensibilité ou essayer différents modes d'analyse pour de meilleurs résultats.
 
-**Q: How do I update the AI models?**
+**Q: Comment puis-je mettre à jour les modèles d'IA ?**
 
-A: Model updates are delivered through the application's update system. Check Help → Check for Updates regularly.
+R: Les mises à jour des modèles sont livrées via le système de mise à jour de l'application. Vérifiez régulièrement dans Aide → Rechercher les mises à jour.
 
-**Q: Can I export analysis results?**
+**Q: Puis-je exporter les résultats de l'analyse ?**
 
-A: Yes, you can export results as PDF reports, CSV data, or integrate with your existing medical record systems.
+R: Oui, vous pouvez exporter les résultats sous forme de rapports PDF, de données CSV, ou les intégrer à vos systèmes de dossiers médicaux existants.
 
-**Q: What hardware do I need?**
+**Q: Quel matériel me faut-il ?**
 
-A: See our Supported Platforms section for detailed system requirements. A dedicated graphics card is recommended for optimal performance. 
+R: Consultez notre section "Plateformes Prises en Charge" pour connaître les exigences système détaillées. Une carte graphique dédiée est recommandée pour des performances optimales.
