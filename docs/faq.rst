@@ -13,7 +13,7 @@ R: Insight Ray prend en charge divers formats d'imagerie médicale, y compris le
 
 **Q: Quelle est la précision de l'analyse par IA ?**
 
-R: Nos modèles d'IA atteignent plus de 95 % de précision sur les ensembles de données d'imagerie médicale standard, mais les résultats doivent toujours être examinés par des professionnels de la santé qualifiés.
+R: Nos modèles d'IA atteignent plus de 70 % de précision sur les ensembles de données d'imagerie médicale standard, mais les résultats doivent toujours être examinés par des professionnels de la santé qualifiés.
 
 **Q: Puis-je utiliser Insight Ray pour le diagnostic clinique ?**
 
