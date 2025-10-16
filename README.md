@@ -76,6 +76,9 @@ Insight-ray/
 ├── check_models.py            # Gemini model availability checker
 ├── static/
 │   └── index.html             # Web interface
+├── Interfaces/                # Interface screenshots
+│   ├── flask.png              # Flask web app screenshot
+│   └── tkinter.png            # Tkinter interface screenshot
 ├── analysis_results/          # Dataset visualization outputs
 ├── runs/                      # Training run results and metrics
 ├── TestImages/                # Sample X-ray images for testing
@@ -96,7 +99,9 @@ A modern web-based interface featuring:
 - **Visual Results**: Annotated images with detection overlays
 - **Performance Metrics**: Inference time, confidence scores, and detection statistics
 
-**Web Interface Preview:**
+![Flask Web Interface](Interfaces/flask.png)
+
+**Features:**
 - Clean, minimalist dark gray UI
 - Split-panel layout with results on left, AI chat on right
 - Independent scrolling for results and chat sections
@@ -109,6 +114,8 @@ A simple desktop application that:
 - Displays inference results with bounding boxes directly on the image
 - Shows detected classes and confidence scores
 - No AI chat integration - purely for model inference visualization
+
+![Tkinter Desktop Interface](Interfaces/tkinter.png)
 
 ## Installation
 
@@ -224,9 +231,6 @@ This project is for educational and research purposes. The VinBigData dataset ha
 **Adam Khald**
 - GitHub: [@Adamkhald](https://github.com/Adamkhald)
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
 
 ---
 
